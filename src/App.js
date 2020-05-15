@@ -1,12 +1,18 @@
 import React from 'react';
 import './App.css';
+import { Route, Switch, withRouter  } from 'react-router-dom';
+import Nav from './components/Nav';
+import Masthead from './components/Masthead';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Nav />
+      <Switch>
+        <Route exact path='/' component={Masthead} />
+      </Switch>
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
