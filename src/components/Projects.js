@@ -8,15 +8,15 @@ function Projects() {
     <div>
       <section id="portfolio">
         <div>
-          <div className="page-section bg-dark">
+          <div className="page-section bg-primary">
             <div className="row no-gutters">
-              <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href={img1}>
+              <div className="col-lg-4 col-sm-6 container">
+                <NavLink className="portfolio-box" to="/project-show">
                   <img className="img-fluid" src={img1} alt="" />
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">Category</div>
-                    <div className="project-name">Project Name</div>
-                  </div></a>
+                  <div className="portfolio-box-caption overlay">
+                    <div className="project-category text-white-50 overlay-text">Category</div>
+                    <div className="project-name overlay-text">Project Name</div>
+                  </div></NavLink>
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href={img2}>
