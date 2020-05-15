@@ -6067,7 +6067,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #050505 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9980,7 +9980,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 10rem 0;
 }
 
 #mainNav {
