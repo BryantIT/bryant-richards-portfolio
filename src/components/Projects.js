@@ -55,7 +55,7 @@ function Projects() {
                   <img className="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
                   <div className="portfolio-box-caption p-3">
                     <div className="project-category text-white-50">Category</div>
-                    <div classNameName="project-name">Project Name</div>
+                    <div className="project-name">Project Name</div>
                   </div></a>
               </div>
             </div>
