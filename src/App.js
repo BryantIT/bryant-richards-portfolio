@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Masthead from './components/Masthead';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path='/' component={Masthead} />
         <Route exact path='/about' component={About} />
         <Route exact path='/skills' component={Skills} />
+        <Route exact path='/projects' component={Projects} />
       </Switch>
     </div>
   );
