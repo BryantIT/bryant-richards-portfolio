@@ -10139,3 +10139,10 @@ header.masthead h1 {
 .container:hover .overlay {
   opacity: 1;
 }
+
+.pad {
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
