@@ -8,7 +8,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ProjectShow from './components/ProjectShow';
 import Resume from './components/Resume';
 import SocialMedia from './components/SocialMedia';
 
@@ -28,7 +27,6 @@ const Pages = ({ profile }) => {
             (<Projects {...props} profile={profile}/>)
           }/>
         <Route exact path='/contact' component={Contact} />
-        <Route exact path='/project-show' component={ProjectShow} />
         <Route exact path='/resume' component={Resume} />
       </Switch>
       <SocialMedia />
