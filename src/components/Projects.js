@@ -13,12 +13,12 @@ const Projects = ({ profile }) => {
               <div className="row no-gutters">
                 {profile.projects.map(p => (
                 <div className="col-lg-4 col-sm-6 container">
-                  <NavLink className="portfolio-box" to="/project-show">
+                  <a className="portfolio-box" href={p.githubUrl}>
                     <img className="img-fluid" src={p.images.map(i => i.resolutions.desktop.url)} alt="" />
                     <div className="portfolio-box-caption overlay">
                       <div className="project-name overlay-text">{p.name}</div>
                       <div className="project-category text-white-50 overlay-text">{p.primaryLanguage}</div>
-                    </div></NavLink>
+                    </div></a>
                   </div>
                 ))}
                 </div>
