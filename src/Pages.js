@@ -23,11 +23,10 @@ const Pages = ({ profile }) => {
         <Route exact path="/about" render={props =>
           (<About {...props} profile={profile}/>)
         }/>
-      <Route exact path="/skills" render={props =>
-          (<Skills {...props} profile={profile}/>)
-        }/>
         <Route exact path='/skills' component={Skills} />
-        <Route exact path='/projects' component={Projects} />
+        <Route exact path="/projects" render={props =>
+            (<Projects {...props} profile={profile}/>)
+          }/>
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/project-show' component={ProjectShow} />
         <Route exact path='/resume' component={Resume} />
