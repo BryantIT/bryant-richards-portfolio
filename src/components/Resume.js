@@ -8,9 +8,10 @@ function Resume() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
-              <h2 className="text-white mt-0">Resume</h2>
+              <h2 className="text-white mt-0">My Resume</h2>
               <hr className="divider light my-4" />
-              <p className="text-white-50 mb-4">Resume</p>
+              <NavLink className="text-white-50 mb-4" to="https://gitconnected.com/bryantit/resume"
+                target="_blank" download>Download Resume</NavLink>
             </div>
           </div>
         </div>
