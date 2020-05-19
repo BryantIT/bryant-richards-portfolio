@@ -11,6 +11,16 @@ function Skills() {
             <div className="col-lg-3 col-md-6 text-center">
               <div className="mt-5">
                 <i className="fas fa-4x fa-gem text-primary mb-4"></i>
+                <h3 className="h4 mb-2">Ruby</h3>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="mt-5">
+                <i className="fas fa-4x fa-gem text-primary mb-4"></i>
                 <h3 className="h4 mb-2">Ruby on Rails</h3>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
