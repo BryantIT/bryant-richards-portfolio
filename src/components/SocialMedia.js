@@ -1,18 +1,22 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 function Footer() {
   return (
     <div>
       <footer className="bg-dark">
         <div className="container">
-          <NavLink to="/"><div className="pad fas fa-4x fab fa-facebook"></div></NavLink>
-          <NavLink to="/"><div className="pad fas fa-4x fab fa-github"></div></NavLink>
-          <NavLink to="/"><div className="pad fas fa-4x fab fa-linkedin"></div></NavLink>
-          <NavLink to="/"><div className="pad fas fa-4x fab fa-youtube"></div></NavLink>
-          <NavLink to="/"><div className="pad fas fa-4x fab fa-twitter"></div></NavLink>
-          <NavLink to="/"><div className="pad fas fa-4x fab fa-instagram"></div></NavLink>
-          <NavLink to="/"><div className="pad fas fa-4x fab fa-slack"></div></NavLink>
+          <a href="https://github.com/BryantIT" target="_blank"
+            rel="noopener noreferrer"><div className="pad fas fa-4x fab fa-github"></div></a>
+          <a href="https://www.linkedin.com/in/bryant-richards/" target="_blank"
+            rel="noopener noreferrer"><div className="pad fas fa-4x fab fa-linkedin"></div></a>
+          <a href="https://www.youtube.com/channel/UCEBxk4F6LUdGFdpw01p5OnA" target="_blank"
+            rel="noopener noreferrer"><div className="pad fas fa-4x fab fa-youtube"></div></a>
+          <a href="https://twitter.com/mycodeninja" target="_blank"
+            rel="noopener noreferrer"><div className="pad fas fa-4x fab fa-twitter"></div></a>
+          <a href="https://www.instagram.com/sudo_bryant/" target="_blank"
+            rel="noopener noreferrer"><div className="pad fas fa-4x fab fa-instagram"></div></a>
+          <a href="https://slack.com/app_redirect?channel=ULW09NH4P" target="_blank"
+            rel="noopener noreferrer"><div className="pad fas fa-4x fab fa-slack"></div></a>
         </div>
       </footer>
     </div>

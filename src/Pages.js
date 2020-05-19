@@ -10,8 +10,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 import SocialMedia from './components/SocialMedia';
+import Blog from './components/Blog';
 
-const Pages = ({ profile }) => {
+const Pages = ({ profile, blog }) => {
   return (
     <div>
       <Nav />
@@ -28,6 +29,9 @@ const Pages = ({ profile }) => {
           }/>
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/resume' component={Resume} />
+          <Route exact path="/blog" render={props =>
+              (<Blog {...props} blog={blog}/>)
+            }/>
       </Switch>
       <SocialMedia />
       <Footer />
