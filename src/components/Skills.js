@@ -68,6 +68,16 @@ function Skills() {
                   <i class="fas fa-star"></i>
               </div>
             </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <i class="fas fa-4x fas fa-database text-primary mb-4"></i>
+                <h3 class="h4 mb-2">PostgresQL</h3>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+            </div>
           </div>
         </div>
       </section>
