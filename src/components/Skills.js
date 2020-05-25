@@ -80,6 +80,40 @@ function Skills() {
             </div>
           </div>
         </div>
+      <br/>
+      <div>
+        <small><i class="fas fa-star"></i> = just started </small>
+      </div>
+      <div>
+        <small>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i> = has basic understanding
+        </small>
+      </div>
+      <div>
+        <small>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i> = completed courses
+        </small>
+      </div>
+      <div>
+        <small>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i> = built working projects
+        </small>
+      </div>
+      <div>
+        <small>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i> = job related experience
+        </small>
+      </div>
       </section>
     </div>
   );
