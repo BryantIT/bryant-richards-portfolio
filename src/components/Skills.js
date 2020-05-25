@@ -1,8 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet'
 
 function Skills() {
   return (
     <div>
+      <Helmet>
+        <title>Bryant Richards Skills</title>
+        <meta name="description"
+          content="Web Developer Bryant Richards list of skills including:
+          JavaScript, Ruby, Rails and React" />
+      </Helmet>
       <section className="page-section bg-primary" id="services">
         <div className="container">
           <h2 className="text-center mt-0">Skills</h2>

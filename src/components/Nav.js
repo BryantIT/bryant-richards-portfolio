@@ -14,6 +14,7 @@ function Nav() {
               <li className="nav-item"><NavLink className="nav-link" to="/projects">Projects</NavLink></li>
               <li className="nav-item"><NavLink className="nav-link" to="/resume">Resume</NavLink></li>
               <li className="nav-item"><NavLink className="nav-link" to="/blog">Blog</NavLink></li>
+              <li className="nav-item"><NavLink className="nav-link" to="/other-publications">Other Publications</NavLink></li>
               <li className="nav-item"><NavLink className="nav-link" to="/contact">Contact</NavLink></li>
             </ul>
           </div>

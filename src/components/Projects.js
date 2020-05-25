@@ -1,8 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet'
 
 const Projects = ({ profile }) => {
   return (
     <div>
+      <Helmet>
+        <title>Bryant Richards Projects</title>
+        <meta name="description"
+          content="Web Developer Bryant Richards web developer projects" />
+      </Helmet>
       <section id="portfolio">
         <div>
             <div className="page-section bg-primary container-fluid">

@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Resume from './components/Resume';
 import SocialMedia from './components/SocialMedia';
 import Blog from './components/Blog';
+import OtherPublications from './components/OtherPublications'
 
 const Pages = ({ profile, blog }) => {
   return (
@@ -33,6 +34,9 @@ const Pages = ({ profile, blog }) => {
               (<Blog {...props} blog={blog}/>)
             }/>
       </Switch>
+      <Route exact path="/other-publications" render={props =>
+          (<OtherPublications {...props} profile={profile}/>)
+        }/>
       <SocialMedia />
       <Footer />
     </div>
