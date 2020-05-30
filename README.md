@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/BryantIT/bryant-richards-portfolio/pulse/commit-activity)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
