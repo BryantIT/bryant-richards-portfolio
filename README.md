@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/BryantIT/bryant-richards-portfolio/releases/)
 
+[![Depfu](https://badges.depfu.com/badges/4fcb912da50f4efde8665d8f07fb9602/status.svg)](https://depfu.com)
+
+[![Depfu](https://badges.depfu.com/badges/4fcb912da50f4efde8665d8f07fb9602/overview.svg)](https://depfu.com/github/BryantIT/bryant-richards-portfolio?project_id=13390)
+
+[![Depfu](https://badges.depfu.com/badges/4fcb912da50f4efde8665d8f07fb9602/count.svg)](https://depfu.com/github/BryantIT/bryant-richards-portfolio?project_id=13390)
+
 
 
 
