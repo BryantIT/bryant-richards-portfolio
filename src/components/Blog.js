@@ -19,7 +19,7 @@ function Blog({ blog }) {
             <div key ={b.id} className="col-lg-3 col-md-6 text-center">
               <div className="mt-5">
                 <h3 className="h4 mb-2">{b.title}</h3>
-                <p className="text-muted mb-0">{b.content.replace(/<\/?[^>]+>/gi, '').substr(0,50)}
+                <p className="text-muted mb-0">{b.content.replace(/<\/?[^>]+>/gi, '').replace(/&nbsp;/gi, '').substr(0,50)}
                 <a href={b.url} target="_blank" rel="noopener noreferrer">...</a></p>
               </div>
             </div>
