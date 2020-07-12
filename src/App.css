@@ -10050,7 +10050,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("./assets/img/profilebg.png");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://res.cloudinary.com/dm1w2j7mu/image/upload/v1594571991/profilebg_qhfxfc.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
